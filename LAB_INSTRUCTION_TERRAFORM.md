@@ -248,6 +248,9 @@ them to other parts of code.
 ```bash
 export TF_VAR_github_token=github_token_here
 ```
+* PowerShell:
+$env:TF_VAR_github_token="github_token_here"
+echo $env:TF_VAR_github_token
 
 8. Run `terraform init` to install providers and set up the module.
 9. Running `terraform validate` checks if your configuration is correct, and `terraform fmt`
